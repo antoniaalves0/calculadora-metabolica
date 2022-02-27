@@ -2,7 +2,7 @@
 
 <p >
 Neste repositório criei uma Calculadora Metábolica que calcula sua taxa metábolica de acordo  com sexo, idade, peso, altura e o nivel de atividade fisica.
-  
+- link do site: https://keen-bhaskara-503c60.netlify.app
 <img src="![Captura de Tela (643)](https://user-images.githubusercontent.com/86538066/155898586-b2c999fd-e87e-4050-b509-99da913a3aba.png)" width="800px"/>
 <p/>
   

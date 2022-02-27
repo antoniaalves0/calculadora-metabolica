@@ -1,0 +1,53 @@
+h1{
+    color: #F378C6;
+    text-align: center;
+}
+
+body{
+    background: #282A37;
+    color: bisque;
+    font-size: 23px;
+}
+
+section{
+    background:#333646;
+    width: 500px;
+    padding: 25px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.botoesoptions{
+    background: #282A37;
+    border-radius: 5px;
+    color: rgb(231, 215, 195);
+    font-size: 17px;
+    width: 500px;
+    height: 40px;
+    border: transparent;
+}
+
+.botoesoptions:hover {
+    border-color: #F378C6;
+    box-shadow:inset 0 0 0 1px #F06;
+}
+
+.calcular {
+    background-image: linear-gradient(-90deg, #8BEAFD 0%, #F378C6 100%);
+
+    border-radius: 7px;
+    /*box-shadow: 5px 5px 10px rgba(250, 246, 246, 0.5);*/
+    color: #282A37;
+    font-size: 18px;
+    width: 500px;
+    height: 50px;
+    font-weight: bold;
+    
+}
+
+.lista-resultados{
+    font-size: 19px;
+    text-align: justify;
+}
+
+  

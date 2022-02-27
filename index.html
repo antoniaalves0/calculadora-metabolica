@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora Metabólica</h1>
+
+    <section>
+        <div id="form">
+            <p >Seu sexo:<br>
+                <select class="botoesoptions" id="txtsexo">
+                    <option value="fem" id="feminino">Feminino</option>
+                    <option value="masc" id="masculino">Masculino</option>
+                </select>
+            </p>
+
+            <p >Sua idade:<br>
+                <input type="number" name="txtidade" id="txtidade" class="botoesoptions">
+            </p>
+
+            <p >Seu peso:<br>
+                <input type="number" name="txtpeso" id="txtpeso" class="botoesoptions">
+            </p>
+
+            <p >Sua altura:<br>
+                <input type="number" name="txtaltura" id="txtaltura" class="botoesoptions">
+            </p>
+
+            <p >Seu nível de atividade física:<br>
+                <select id="txtnivel" class="botoesoptions">
+                    <option value="1.2" id="sedentario">Sedentário</option>
+                    <option value="1.375" id="poucativ">Pouca atividade</option>
+                    <option value="1.55" id="ativmoderada">Atividade moderada</option>
+                    <option value="1.725" id="ativintensa">Atividade intensa</option>
+                    <option value="1.9" id="ativmuitointensa">Atividade muito intensa</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="button" value="Calcular!" onclick="calcular()" id="calcular" class="calcular">
+                
+            </p>
+        </div>
+
+        <div id="resultado">
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
